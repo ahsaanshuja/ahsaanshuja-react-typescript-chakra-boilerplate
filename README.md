@@ -25,4 +25,6 @@ Make sure you have the following installed on your machine:
    ```sh
    git clone https://github.com/ahsaanshuja/react-typescript-chakra-boilerplate.git
    cd react-typescript-boilerplate
+   yarn
+   yarn start
    ```
