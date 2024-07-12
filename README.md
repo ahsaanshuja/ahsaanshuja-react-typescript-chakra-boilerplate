@@ -10,6 +10,7 @@ A boilerplate project setup for building applications with React, Chakra UI and 
 - **Context API** - State management
 - **Custom Hooks** - Reusable logic
 - **Husky** - Husky for pre commits
+- **Webpack** - webpack for custom build
 
 ## Getting Started
 
