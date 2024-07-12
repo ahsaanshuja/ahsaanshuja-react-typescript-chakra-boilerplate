@@ -9,6 +9,7 @@ A boilerplate project setup for building applications with React, Chakra UI and 
 - **React Router** - For routing
 - **Context API** - State management
 - **Custom Hooks** - Reusable logic
+- **Husky** - Husky for pre commits
 
 ## Getting Started
 
