@@ -1,5 +1,8 @@
 import { HStack, Text } from '@chakra-ui/react';
+import { QueryClient } from '@tanstack/react-query';
 import AppProviders from './providers';
+
+export const queryClient = new QueryClient();
 
 function App() {
   return (
