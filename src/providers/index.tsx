@@ -1,5 +1,5 @@
 import { FC, ReactNode } from 'react';
-import MyChakraProvider from './ChakraProvider';
+import MyChakraProvider from './ChakraProvider/ChakraProvider';
 
 const AppProviders: FC<{ children: ReactNode }> = ({ children }) => (
   <MyChakraProvider>

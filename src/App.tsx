@@ -1,13 +1,17 @@
-import { HStack, Text } from '@chakra-ui/react';
+import { BrowserRouter } from 'react-router-dom';
 import AppProviders from './providers';
+import { AuthProvider } from './providers/AuthProvider';
+import Router from './router/Router/Router';
 
 function App() {
   return (
-    <AppProviders>
-      <HStack justifyContent={'center'} h='100vh' w='100wv'>
-        <Text fontSize={'6xl'}>Welcome to Chakra React Boiler boilerplate</Text>{' '}
-      </HStack>
-    </AppProviders>
+    <BrowserRouter>
+      <AuthProvider>
+        <AppProviders>
+          <Router />
+        </AppProviders>
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
 
